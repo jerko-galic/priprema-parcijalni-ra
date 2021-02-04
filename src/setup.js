@@ -3,7 +3,7 @@ import layout from "./views/layout";
 import spinner from "./views/loader";
 import fetchCountries from "./data";
 import createCountries from "./views/countries";
-
+console.log("commit");
 function render(markup, parent) {
   parent.innerHTML = markup;
 }
